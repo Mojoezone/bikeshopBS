@@ -9,7 +9,7 @@
     color: #999 !important;
 }
 .dropdown-item:hover{
-    background-color:none;
+    background-color: transparent !important;
     color: #FFF !important;
 }
 .hero-img{
