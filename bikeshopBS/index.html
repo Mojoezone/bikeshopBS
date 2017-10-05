@@ -24,71 +24,88 @@
 
     <body>
 
-       
 
-            <nav class="navbar navbar-toggleable-sm sticky-top bg-dark navbar-dark">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="brand" href="index.html"><img src="images/logo.svg" alt="Home"  /></a>
-                    </div>
 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"  style="border:none;">
+        <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark">
+
+
+            <a class="brand pt-2 pb-4" href="index.html"><img src="images/logo.svg" alt="Home"  /></a>
+
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    
-                    
-                    
-                        <ul class="nav-collapse collapse list-unstyled container-fluid " id="mainNav">
-                            <li class="active"><a class="nav-link" href="index.html">HOME</a></li>
-                            <li><a class="nav-link" href="pages/rental.html">RENTAL</a></li>
-                            <li><a class="nav-link" href="pages/repair.html">REPAIR</a></li>
-                            <li><a class="nav-link" href="pages/class.html">CLASS</a></li>
+
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/rental.html">RENTAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/repair.html">REPAIR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/class.html">CLASS</a>
+                    </li>
 
 
 
-                            <li class="hover-submenu"><a class="nav-link" href="pages/about.html">ABOUT</a>
-                                <ul class="hover-submenu-group">
-                                    <li><a class="nav-link" href="pages/history.html">HISTORY</a></li>
-                                    <li><a class="nav-link" href="pages/owner.html">OWNER</a></li>
-                                    <li><a class="nav-link" href="pages/staff.html">STAFF</a></li>
-                                </ul>
-                            </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="pages/about.html">ABOUT</a>
 
-                            <li class="hover-submenu"><a class="nav-link" href="pages/bikes.html">BIKES</a>
-                                <ul class="hover-submenu-group">
-                                    <li><a class="nav-link" href="pages/adult.html">ADULT</a></li>
-                                    <li><a class="nav-link" href="pages/kid.html">KID</a></li>
-                                </ul>
-                            </li>
+                        <div class="dropdown-menu bg-dark border-0" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="pages/history.html">HISTORY</a>
+                            <a class="dropdown-item" href="pages/owner.html">OWNER</a>
+                            <a class="dropdown-item" href="pages/staff.html">STAFF</a>
+                        </div>
 
-                            <li class="hover-submenu"><a class="nav-link" href="pages/accessories.html">ACCESSORIES</a>
-                                <ul class="hover-submenu-group">
-                                    <li><a class="nav-link" href="pages/helmets.html">HELMETS</a></li>
-                                    <li><a class="nav-link" href="pages/lights.html">LIGHTS</a></li>
-                                    <li><a class="nav-link" href="pages/brakes.html">BRAKES</a></li>
-                                    <li><a class="nav-link" href="pages/chains.html">CHAINS</a></li>
-                                    <li><a class="nav-link" href="pages/locks.html">LOCKS</a></li>
-                                </ul>
-                            </li>
+                    </li>
 
-                            <li><a class="nav-link" href="pages/contact.html">CONTACT</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="pages/bikes.html">BIKES</a>
+                        <div class="dropdown-menu bg-dark border-0" aria-labelledby="navbarDropdownMenuLink2">
+                            <a class="dropdown-item" href="pages/adult.html">ADULT</a>
+                            <a class="dropdown-item" href="pages/kid.html">KID</a>
+                        </div>
+                    </li>
 
-                        </ul>
-                    </div>
-               
-            </nav>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="pages/accessories.html">ACCESSORIES</a>
 
+                        <div class="dropdown-menu bg-dark border-0" aria-labelledby="navbarDropdownMenuLink3">
+                            <a class="dropdown-item" href="pages/helmets.html">HELMETS</a>
+                            <a class="dropdown-item" href="pages/lights.html">LIGHTS</a>
+                            <a class="dropdown-item" href="pages/brakes.html">BRAKES</a>
+                            <a class="dropdown-item" href="pages/chains.html">CHAINS</a>
+                            <a class="dropdown-item" href="pages/locks.html">LOCKS</a>
+                        </div>
+                    </li>
 
+                    <li><a class="nav-link" href="pages/contact.html">CONTACT</a></li>
 
-            <div class="jumbotron jumbotron-fluid hero-img clearfix">
-                <p class="blockquote">"I don’t have a bucket list but my bikeit list is a mile long."
-                    <span class="small">Unknown Author</span>
-                </p>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
 
-            <main class="container-fluid">
-               
-               <div class="row">
+        </nav>
+
+
+
+        <div class="jumbotron jumbotron-fluid hero-img clearfix">
+            <p class="blockquote">"I don’t have a bucket list but my bikeit list is a mile long."
+                <span class="small">Unknown Author</span>
+            </p>
+        </div>
+
+        <main class="container-fluid">
+
+            <div class="row">
                 <figure class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <a href="pages/adult.html"><img class="img-responsive"  src="images/diamondback_woverine_2.2.jpg" alt="Diamondback Woverine 2.2" /></a>
                     <figcaption class="text-center">
@@ -97,7 +114,7 @@
                     </figcaption>
                 </figure>
 
-                <figure  class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <figure class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <a href="pages/adult.html"><img src="images/trek_black_silver.jpg" alt="Trek Black Silver" /></a>
                     <figcaption class="text-center">
                         <h5><a href="pages/adult.html">Trek</a></h5>
@@ -105,7 +122,7 @@
                     </figcaption>
                 </figure>
 
-                <figure  class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <figure class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <a href="pages/adult.html"><img src="images/gmc_black.jpg" alt="GMC Black" /></a>
                     <figcaption class="text-center">
                         <h5><a href="pages/adult.html">GMC</a></h5>
@@ -115,7 +132,7 @@
 
 
 
-                <figure  class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <figure class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <a href="pages/helmets.html"><img src="images/met_parachute_red_black.jpg" alt="Met Parachute Red Black" /></a>
                     <figcaption class="text-center">
                         <h5><a href="pages/helmets.html">Met Parachute</a></h5>
@@ -123,7 +140,7 @@
                     </figcaption>
                 </figure>
 
-                <figure  class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <figure class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <a href="pages/lights.html"><img src="images/water_proof_light.jpg" alt="Water Proof Light" /></a>
                     <figcaption class="text-center">
                         <h5><a href="pages/lights.html">Waterproof Light</a></h5>
@@ -131,7 +148,7 @@
                     </figcaption>
                 </figure>
 
-                <figure  class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <figure class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <a href="pages/brakes.html"><img src="images/single_digit_brakes_black.jpg" alt="Single Digit Brakes" /></a>
                     <figcaption class="text-center">
                         <h5><a href="pages/brakes.html">Single Digit Brakes</a></h5>
@@ -140,75 +157,75 @@
                 </figure>
 
 
-</div>
-            </main>
+            </div>
+        </main>
 
-            <!-- <a href="#" class="topbutton">Top</a> -->
+        <!-- <a href="#" class="topbutton">Top</a> -->
 
-            <footer class="bg-black footer row">
-            
-           <nav class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
-                    <ul class="nav">
-                         <li class="footerlogo"><a class="nav-link"  href="index.html"><img src="images/logo.svg" alt="Neighbothood Bike Shop Logo" /></a></li>
-                        <li><a class="nav-link" href="tel:(619)666-9999"><i class="fa fa-phone" aria-hidden="true">&nbsp;(619)666-9999</i></a></li>
-                        <li><a class="nav-link"  href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true" ></i></a></li>
-                        <li><a class="nav-link"  href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a class="nav-link"  href="https://www.yelp.com" target="_blank"><i class="fa fa-yelp" aria-hidden="true"></i></a></li>
-                        <li><a class="nav-link"  href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                        <li><a class="nav-link"  href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>  
+        <footer class="bg-black footer row">
+
+            <nav class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
+                <ul class="nav">
+                    <li class="footerlogo"><a class="nav-link" href="index.html"><img src="images/logo.svg" alt="Neighbothood Bike Shop Logo" /></a></li>
+                    <li><a class="nav-link" href="tel:(619)666-9999"><i class="fa fa-phone" aria-hidden="true">&nbsp;(619)666-9999</i></a></li>
+                    <li><a class="nav-link" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true" ></i></a></li>
+                    <li><a class="nav-link" href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="nav-link" href="https://www.yelp.com" target="_blank"><i class="fa fa-yelp" aria-hidden="true"></i></a></li>
+                    <li><a class="nav-link" href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                    <li><a class="nav-link" href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </nav>
+
+            <div class=" container-fluid">
+                <nav>
+                    <ul class="row">
+                        <li class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 list-unstyled active"><a href="index.html">HOME</a>
+                            <ul>
+                                <li class="list-unstyled"><a href="pages/rental.html">RENTAL</a></li>
+                                <li class="list-unstyled"><a href="pages/repair.html">REPAIR</a></li>
+                                <li class="list-unstyled"><a href="pages/class.html">CLASS</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 list-unstyled"><a href="pages/about.html">ABOUT</a>
+                            <ul>
+                                <li class="list-unstyled"><a href="pages/history.html">HISTORY</a></li>
+                                <li class="list-unstyled"><a href="pages/owner.html">OWNER</a></li>
+                                <li class="list-unstyled"><a href="pages/staff.html">STAFF</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 list-unstyled"><a href="pages/bikes.html">BIKES</a>
+                            <ul>
+                                <li class="list-unstyled"><a href="pages/adult.html">ADULT</a></li>
+                                <li class="list-unstyled"><a href="pages/kid.html">KID</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 list-unstyled"><a href="pages/accessories.html">ACCESSORIES</a>
+                            <ul>
+                                <li class="list-unstyled"><a href="pages/helmets.html">HELMETS</a></li>
+                                <li class="list-unstyled"><a href="pages/lights.html">LIGHTS</a></li>
+                                <li class="list-unstyled"><a href="pages/brakes.html">BRAKES</a></li>
+                                <li class="list-unstyled"><a href="pages/chains.html">CHAINS</a></li>
+                                <li class="list-unstyled"><a href="pages/locks.html">LOCKS</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-12 col-sm-4 col-md-3 col-lg-4 col-xl-4 list-unstyled"><a href="pages/contact.html">CONTACT</a>
+                            <ul>
+                                <li class="list-unstyled"><a href="pages/contact.html">MON - SAT &nbsp; 8AM - 6PM</a></li>
+                                <li class="list-unstyled"><a href="mailto:customerservice@tnbs.com">CUSTOMERSERVICE@TNBS.COM</a></li>
+                                <li class="list-unstyled"><a href="https://www.google.com/maps/@32.8245525,-117.1089785,10z">666 SAN DIEGO ST SAN DIEGO CA 92911</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
+            </div>
 
-                <div class=" container-fluid">
-                    <nav>
-                        <ul class="row">
-                            <li class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 list-unstyled active"><a href="index.html">HOME</a>
-                                <ul>
-                                    <li class="list-unstyled"><a href="pages/rental.html">RENTAL</a></li>
-                                    <li class="list-unstyled"><a href="pages/repair.html">REPAIR</a></li>
-                                    <li class="list-unstyled"><a href="pages/class.html">CLASS</a></li>
-                                </ul>
-                            </li>
-                            <li  class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 list-unstyled"><a href="pages/about.html">ABOUT</a>
-                                <ul>
-                                    <li class="list-unstyled"><a href="pages/history.html">HISTORY</a></li>
-                                    <li class="list-unstyled"><a href="pages/owner.html">OWNER</a></li>
-                                    <li class="list-unstyled"><a href="pages/staff.html">STAFF</a></li>
-                                </ul>
-                            </li>
-                            <li  class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 list-unstyled"><a href="pages/bikes.html">BIKES</a>
-                                <ul>
-                                    <li class="list-unstyled"><a href="pages/adult.html" >ADULT</a></li>
-                                    <li class="list-unstyled"><a href="pages/kid.html">KID</a></li>
-                                </ul>
-                            </li>
-                            <li  class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 list-unstyled"><a href="pages/accessories.html">ACCESSORIES</a>
-                                <ul>
-                                    <li class="list-unstyled"><a href="pages/helmets.html">HELMETS</a></li>
-                                    <li class="list-unstyled"><a href="pages/lights.html">LIGHTS</a></li>
-                                    <li class="list-unstyled"><a href="pages/brakes.html">BRAKES</a></li>
-                                    <li class="list-unstyled"><a href="pages/chains.html">CHAINS</a></li>
-                                    <li class="list-unstyled"><a href="pages/locks.html">LOCKS</a></li>
-                                </ul>
-                            </li>
-                            <li  class="col-12 col-sm-4 col-md-3 col-lg-4 col-xl-4 list-unstyled"><a href="pages/contact.html">CONTACT</a>
-                                <ul>
-                                    <li class="list-unstyled"><a href="pages/contact.html">MON - SAT &nbsp; 8AM - 6PM</a></li>
-                                    <li class="list-unstyled"><a href="mailto:customerservice@tnbs.com">CUSTOMERSERVICE@TNBS.COM</a></li>
-                                    <li class="list-unstyled"><a href="https://www.google.com/maps/@32.8245525,-117.1089785,10z">666 SAN DIEGO ST SAN DIEGO CA 92911</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                
-                <p class="container-fluid small d-flex justify-content-center">Copyright mojoezone.com 2016-2017</p>
-     
-            </footer>
+            <p class="container-fluid small d-flex justify-content-center">Copyright mojoezone.com 2016-2017</p>
+
+        </footer>
 
 
 
-        
+
     </body>
 
 </html>

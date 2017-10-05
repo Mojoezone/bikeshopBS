@@ -1,24 +1,21 @@
-.bg-black{
-    background-color: #000;
-    color:#FFF;
-    padding: 1em;
-}
 
 .brand img{
     width: 6em;
 }
-
-.glyphicon-menu-hamburger{
-    font-size: 2em;
+.nav-link:hover{
+    color: #FFF !important;
+}
+.dropdown-item{
+    color: #999 !important;
+}
+.dropdown-item:hover{
+    background-color:none;
+    color: #FFF !important;
 }
 .hero-img{
     background: url(../images/home_bg.jpg) center center no-repeat;
     background-size:cover;
     height: 30em;
-}
-
-.hover-submenu-group{
-    display:none;
 }
 
 
