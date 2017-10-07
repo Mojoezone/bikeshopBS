@@ -1,6 +1,21 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+}
 
+nav a, h1, h2, h3, h4, h5{
+    font-family: 'Indie Flower', cursive !important;
+}
+#animateLine{
+    position:relative;
+}
 .brand img{
     width: 6em;
+}
+.animateLine{
+    position: absolute;
+    left: 0;
+    border-bottom: 1px dashed #999;
+    width: 1em;
 }
 .nav-link:hover{
     color: #FFF !important;
@@ -17,8 +32,12 @@
     background-size:cover;
     height: 30em;
 }
-
-
+.hero-img>div{
+    height: 15em;
+}
+li ul{
+    padding-left: 0;
+}
 
 /*footer*/
 .footerlogo img{
