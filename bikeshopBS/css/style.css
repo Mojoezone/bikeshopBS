@@ -16,6 +16,7 @@ nav a, h1, h2, h3, h4, h5{
     left: 0;
     border-bottom: 1px dashed #999;
     width: 1em;
+    box-shadow: 1px 1px 1px #ffffff;
 }
 .nav-link:hover{
     color: #FFF !important;
@@ -35,6 +36,9 @@ nav a, h1, h2, h3, h4, h5{
 .hero-img>div{
     height: 15em;
 }
+.hero-img h3{
+   text-shadow: 1px 1px 1px #464a4e;
+}
 li ul{
     padding-left: 0;
 }
@@ -42,4 +46,7 @@ li ul{
 /*footer*/
 .footerlogo img{
     width: 5em;
+}
+.footer a{
+    color: #f8f9fa;
 }
